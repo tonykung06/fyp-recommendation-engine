@@ -1,0 +1,19 @@
+{
+  "name": "fyp_openrice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node 1_scrapeRestaurants.js && node 2_scrapeReviews.js && node 3_generateUserItemMatrix.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "csv-stringify": "^6.4.5",
+    "lodash": "^4.17.21",
+    "ndjson": "^2.0.0"
+  }
+}
